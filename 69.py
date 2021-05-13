@@ -1,0 +1,7 @@
+n=int(input())
+a=map(int,input().strip().split(" "))
+a=list(a)
+set_r=set(a)
+new_list=list(set_r)    
+new_list.sort()
+print(new_list[-2])
